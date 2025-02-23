@@ -67,7 +67,7 @@ aios-cli start
 ### Config Node
 ```console
 # Run this to see what models are required
-aios-cli hive select-tier 5
+aios-cli models available
 # Download a required model
 aios-cli models add hf:TheBloke/phi-2-GGUF:phi-2.Q4_K_M.gguf
 # Import your private key - Create a my.pem file using nano .pem and input a privatekey (You can get a privatekey from browser version)
